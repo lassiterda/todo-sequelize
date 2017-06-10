@@ -1,0 +1,21 @@
+{
+  "name": "todo-orm",
+  "version": "1.0.0",
+  "description": "rebuild of the to-do list app from week14 with sequelize",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "author": "David Lassiter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {}
+}
